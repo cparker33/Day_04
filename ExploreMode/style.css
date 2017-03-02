@@ -1,0 +1,175 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+*{text-decoration: none;}
+
+body {
+
+  /*background: url(images/bg.jpg);
+  background-repeat: no-repeat;*/
+  background-color: #999;
+
+}
+
+
+#cContainer {
+
+  width: 900px;
+  margin:auto;
+}
+
+#cHeader {
+  
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 67px;
+
+}
+
+
+.cSocMedBorder{
+
+  width: 60px;
+  border-bottom: 5px solid #777; 
+  position: absolute;
+  top: 60px;
+  opacity: 0.6;
+  filter: alpha = 60;
+  
+}
+
+
+.cHeadSocMed {
+
+  position: relative;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 5px;
+}
+
+.cHeadSocMedIcon {
+
+  font-size: 40px;
+  color: #FFF;
+  opacity: 0.6;
+  filter: alpha = 60;
+}
+
+
+#cFaceBook {background-color: rgb(68, 88, 151);}
+#cRSS {background-color: rgb(204, 143, 50);}
+#cTwitter{background-color: rgb(106, 141, 199);}
+#cYouTube{background-color: rgb(178, 56, 45);}
+
+#cElipsV {
+
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+  margin-top: 5px;
+  color: #FFF;  
+}
+
+
+#cElipsV div {margin-bottom: -10px;}
+
+
+#cSubscribe {
+
+  margin-right: 100px;
+  line-height: 67px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+
+
+#cNav {
+
+
+  border: 1px solid #000; 
+  height: 50px;
+  margin-top:20px;
+  font-family: Verdana, Geneva, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.cNavBtn {
+
+  width: 200px;
+  height: 40px;
+  background-color: rgb(180, 41, 46);
+  
+  color: #FFF;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cNavBtn span{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#cSlideShow {
+  
+  border: 1px solid #000; 
+  height: 400px;
+  margin-top:20px;
+  
+}
+
+#cArticle {
+  
+  border: 1px solid #000; 
+  height: 400px;
+  margin-top:40px;
+
+}
+
+#cSkater {
+  
+  border: 1px solid #000; 
+  height: 500px;
+  margin-top:20px;
+
+}
+
+#cBoard {
+  
+  border: 1px solid #000; 
+  height: 300px;
+  margin-top:20px;
+
+}
+
+#cContact {
+  
+  border: 1px solid #000; 
+  height: 400px;
+  margin-top:20px;
+
+}
+
+
+
+
+
+
+
+
