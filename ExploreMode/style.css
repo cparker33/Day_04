@@ -95,8 +95,6 @@ body {
 
   height: 50px;
   margin-top:20px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: normal;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -109,14 +107,25 @@ body {
   width: 200px;
   height: 40px;
   background-color: rgb(180, 41, 46);
-  color: #FFF;
-  line-height: 40px;
-  text-transform: uppercase;
-  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-right: 0px;
+}
+
+.cNavBtn p {
+
+  color: #FFF;
+  line-height: 5px;
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+
+
 }
 
 .cNavBtnBorder {
@@ -229,8 +238,7 @@ body {
 
 #cArticle {
   
-  
-  height: 400px;
+  height: 340px;
   margin-top:15px;
   font-family: Verdana, sans-serif;
   display: flex;
@@ -297,12 +305,132 @@ body {
   position: absolute;
 }
 
-#cSkater {
-  
-  border: 1px solid #000; 
-  height: 500px;
-  margin-top:20px;
 
+
+
+#cSkater {
+
+  height: 455px;
+  margin-top:20px;
+  position: relative;
+}
+
+.cSkaterOutter {
+
+  float:left;
+}
+
+
+.cSkterInner {
+
+  overflow: hidden;
+  border: 5px solid #FFF;
+  width: 290px;
+  height: 220px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.cSkaterOutter:nth-child(3) .cSkterInner {
+
+  clear: left;
+  width: 595px;
+
+}
+
+.cSkaterOutter:nth-child(4) .cSkterInner {
+
+  float: right;
+  width: 290px;
+  height: 450px;
+  margin-right: 0px;
+  margin-top: -230px;
+}
+
+
+.cSkterInner p {
+
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.cSkaterOutter:nth-child(1) p {
+   margin-top: -170px; 
+}
+
+.cSkaterOutter:nth-child(1) img {
+  margin-left: -125px;
+}
+
+
+
+.cSkaterOutter:nth-child(2) p {
+   margin-top: -170px;
+   
+}
+
+.cSkaterOutter:nth-child(2) img {
+  margin-left: 0px;
+}
+
+
+.cSkaterOutter:nth-child(3) p {
+   margin-top: -230px;
+   
+}
+
+.cSkaterOutter:nth-child(3) img {
+  margin-top: -60px;
+}
+
+.cSkaterOutter:nth-child(4) p {
+   margin-top: -300px;
+   
+}
+
+.cSkaterOutter:nth-child(4) img {
+  margin-left: -400px;
+}
+
+
+.cSkaterBorder {
+
+  position: absolute;
+  border-bottom: 5px solid #777; 
+  opacity: 0.6;
+  filter: alpha = 60;
+
+}
+
+
+.cSkaterOutter:nth-child(1) .cSkaterBorder {
+  
+  
+  width: 290px;
+  bottom: 230px;
+  
+}
+
+.cSkaterOutter:nth-child(2) .cSkaterBorder {
+  
+  width: 290px;
+  bottom: 230px;
+}
+
+.cSkaterOutter:nth-child(3) .cSkaterBorder {
+
+  width: 595px;
+  bottom: -2px;
+}
+
+.cSkaterOutter:nth-child(4) .cSkaterBorder {
+  
+  width: 290px;
+  bottom: -2px;
 }
 
 #cBoard {
@@ -310,6 +438,7 @@ body {
   border: 1px solid #000; 
   height: 300px;
   margin-top:20px;
+
 
 }
 
