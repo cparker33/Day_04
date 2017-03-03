@@ -191,6 +191,15 @@ body {
 
 }
 
+#cContactBorder {
+
+  position: absolute;
+  width: 100%;
+  bottom: -4px;
+  border-bottom: 5px solid #777; 
+  opacity: 0.6;
+  filter: alpha = 60;  
+}
 
 
 #cRadBtn {
@@ -509,6 +518,7 @@ body {
 
 #cBoard {
   
+  position: relative;
   height: 263px;
   margin-top:20px;
   display: flex;
