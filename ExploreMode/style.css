@@ -92,11 +92,10 @@ body {
 
 #cNav {
 
-
-  border: 1px solid #000; 
   height: 50px;
   margin-top:20px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: normal;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -109,29 +108,65 @@ body {
   width: 200px;
   height: 40px;
   background-color: rgb(180, 41, 46);
-  
   color: #FFF;
   line-height: 40px;
   text-transform: uppercase;
+  text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-right: 0px;
 }
 
-.cNavBtn span{
+.cNavBtnBorder {
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
+  width: 200px;
+  border-bottom: 5px solid #777; 
+  top: 60px;
+  opacity: 0.6;
+  filter: alpha = 60;
 }
+
+.cDash{
+  width: 12px;
+  height: 3px;
+  background-color: #FFF;
+  margin-top: 18px;
+}
+
+
 
 #cSlideShow {
   
-  border: 1px solid #000; 
+  border: 10px solid #FFF; 
   height: 400px;
   margin-top:20px;
+  overflow: hidden;
+  position: relative;
   
+}
+
+#cTopImg{
+
+  margin-left: -250px;
+  margin-top: -110px;
+}
+
+#cGrid{
+  position: absolute;
+  left:20px;
+  top: 0px;
+  left: 0px;
+  opacity: 0.3;
+  filter: alpha = 30;
+}
+
+#cPerLogo{
+
+  position: absolute;
+  top: 100px;
+  left: 10px;
+
 }
 
 #cArticle {
