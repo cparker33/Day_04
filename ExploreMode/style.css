@@ -1,4 +1,5 @@
 html {box-sizing:border-box;}
+
 *, *:before, *:after {box-sizing:inherit;}
 
 *{text-decoration: none;}
@@ -228,19 +229,73 @@ body {
 
 #cArticle {
   
-  border: 1px solid #000; 
+  
   height: 400px;
   margin-top:15px;
+  font-family: Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
 .cArticleBox {
 
-  width: 200px;
-  height: 390px;
+  width: 295px;
+  height: 320px;
+  background-color: #FFF;
+  position: relative;
+}
+
+.cArtHeader {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  margin-bottom: 0px;
+  font-weight: 100;
+  color: #474747;
 }
 
 
+.cArtDate {
+
+  color: #BBBCBD;
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  
+}
+
+.cArtBody {
+
+  width: 250px;
+  padding-left: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: 100;
+  color: #5C5C5C;
+  
+}
+
+.cArtReadMore {
+
+  width: 100%;
+  text-align: center;
+  color: rgb(180, 41, 46);
+}
+
+.cArtBorder {
+
+  bottom: -5px;
+  height: 5px;
+  width: 295px;
+  border-bottom: 5px solid #777; 
+  opacity: 0.6;
+  filter: alpha = 60;
+  position: absolute;
+}
 
 #cSkater {
   
